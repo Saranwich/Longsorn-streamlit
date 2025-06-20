@@ -5,6 +5,9 @@ __pycache__/
 venv/
 .venv/
 
+#secret files
+.streamlit/
+
 # Node / Frontend
 node_modules/
 .next/
@@ -14,3 +17,7 @@ dist/
 # OS files
 .DS_Store
 Thumbs.db
+
+#local testing files 
+test_whisper.mp3
+test_whisper.py
